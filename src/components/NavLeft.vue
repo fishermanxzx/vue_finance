@@ -7,6 +7,7 @@
       text-color="#fff"
       active-text-color="#ffd04b"
       unique-opened
+      default-active='/index'
     >
     <menus :menu="item" v-for="(item,index) in menuData " :key='index'></menus>
     </el-menu>
@@ -34,6 +35,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
+h1{text-align: center;}
 .el-menu {
   border-right: none;
 }

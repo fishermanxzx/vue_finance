@@ -5,7 +5,7 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 const routes = [
-  {path:'/',component:()=>import('../views/Layout.vue'),name:'Layout',children:[
+  {path:'/',component:()=>import('../views/Layout.vue'),name:'Layout',redirect:'/index',children:[
     {
       path:'/index',
       name:'index',

@@ -29,7 +29,7 @@ export default {
 
 <style lang="less" scoped>
 .el-header {
-  background-color: #b3c0d1;
+  background-color: #fff;
   color: #333;
   text-align: right;
   line-height: 60px;
@@ -38,16 +38,15 @@ export default {
 .el-aside {
   background-color:#001529;
   color: #333;
-  text-align: center;
   line-height: 100px;
-  height: 100vh;
   color: #fff;
 }
 
 .el-main {
   background-color: #e9eef3;
   color: #333;
-  text-align: center;
-  line-height: 160px;
+}
+.el-container{
+  height: 100%;
 }
 </style>
